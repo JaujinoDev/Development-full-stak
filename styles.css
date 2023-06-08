@@ -1,0 +1,378 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+  font-family: sans-serif;  
+}
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2.5em;}
+p{font-size: 1.25em;}
+ul{list-style: square;}
+
+button{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px ;
+    border: 2px solid rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px (0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(128, 91, 163);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color:blueviolet}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 1.45em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom:  25px; ;
+}
+
+header a{
+    padding: 5px 12px ;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(128, 91, 163);;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    color: white;
+}
+ #hero button{
+    font-size: 1.5em;
+ }
+
+
+#somos-proya .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+#nuestros-programas{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#nuestros-programas.container{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/front-end.jpg);
+
+}
+.carta:nth-child(2){
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/full-stack.jpg);
+    
+}
+.carta:nth-child(3){
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/python.jpg);
+    
+}
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+
+
+}
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 5vw;
+}
+#final button{
+    font-size: 3vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*::::Pie de pagina*/
+.pie-pagina {
+    width: 100%;
+    background-color: #0a141d;
+
+
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pie-pagina .grupo-1 figure img{
+    width: 250px;
+    border-radius: 8px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #efefef;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+
+}
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+
+    }
+    
+} 
+    
+
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100%;
+        ;
+    }
+    header .container{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 15px;
+    }
+
+    #hero h1{
+        font-size: 5em;
+    }
+    #somos-proya .container{
+        display: flex;
+        justify-content: center;
+    }
+    #somos-proya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left:50px;
+        display: flex;
+        justify-content: center ;
+        flex-direction: column;
+
+    }
+
+    #somos-proya h2{
+
+        margin-top: 0PX;
+    }
+
+    #somos-proya .img-container{
+        background-image: url(/img/somos-proya.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        
+    }
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+    }
+
+    #nuestros-programas.carta{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-color: rgba(50,50,50, 0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        
+      
+    }
+
+    .carta:first-child{
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/front-end-cropped.jpg);
+    
+    }
+    .carta:nth-child(2){
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/full-stack-cropped.jpg);
+        
+    }
+    .carta:nth-child(3){
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/python-cropped.jpg);
+        
+    }
+}
+
+#caracteristicas{
+    background-image: url(/img/background-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 500px) 120px;
+
+}
+#caracteristicas .container{
+    text-align: initial;
+}
+
+#caracteristicas ul{
+    margin-left: 100px;
+}
+#final h2{
+    font-size: 5em;
+}
+
+#final button{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+
+@media (min-width: 1000px) {
+    #caracteristicas{
+        background-position: calc(100vw - 800px);
+    }
+    
+}    
