@@ -84,7 +84,7 @@ header a:hover{
     flex-direction: column;
     height: 90vh;
     color: white;
-    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/hero.jpg");
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -129,15 +129,15 @@ header a:hover{
 }
 
 .carta:first-child{
-    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/front-end.jpg");
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/front-end.jpg");
 
 }
 .carta:nth-child(2){
-    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/full-stack.jpg");
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/full-stack.jpg");
     
 }
 .carta:nth-child(3){
-    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/python.jpg");
+    background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/python.jpg");
     
 }
 
@@ -296,7 +296,7 @@ header a:hover{
     }
 
     #somos-proya .img-container{
-        background-image: url(/img/somos-proya.jpg);
+        background-image: url(img/somos-proya.jpg);
         background-size: cover;
         background-position: center center;
         height: 500px;
@@ -333,21 +333,21 @@ header a:hover{
     }
 
     .carta:first-child{
-        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/front-end-cropped.jpg");
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/front-end-cropped.jpg");
     
     }
     .carta:nth-child(2){
-        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/full-stack-cropped.jpg");
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/full-stack-cropped.jpg");
         
     }
     .carta:nth-child(3){
-        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/img/python-cropped.jpg");
+        background-image:linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/python-cropped.jpg");
         
     }
 }
 
 #caracteristicas{
-    background-image: url("/img/background-2.jpeg");
+    background-image: url("img/background-2.jpeg");
     background-repeat: no-repeat;
     background-size: 500px 400px;
     background-position: calc(100vw - 500px) 120px;
